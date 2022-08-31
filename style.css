@@ -1,0 +1,261 @@
+body{
+    font:15px/1.5 arial,helvetica,sans-serif;
+    background-color:#ffffff;
+}
+.add{
+    padding-left:15%;
+    padding-top: 20;
+    padding-bottom: 23;
+    align-items: center;
+    
+    
+}
+#logo{
+    height: 35px; 
+    padding-bottom: 0%;
+}
+#logo1{
+
+    height: 20px; 
+    padding-bottom: 0%;
+}
+.top{
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
+    
+}
+.siderow botton{
+    color: #fdc006;
+    font: sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+}
+a{
+    color: #777777;
+    font: sans-serif;
+    font-size :18px;
+}
+.messageSender__option{
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 30%;
+    padding-bottom: 0%;
+}
+label {
+    font-size :20px;
+    padding: 6px 0px;
+    color: #b4b3b3;
+    
+}
+.siderow{
+    padding-top: 20px;
+    padding-left: 15px;
+    line-height: 80%;
+    position: fixed;
+}
+.sidebarRow {
+    font-style:arial;
+    font-size :18px;
+    color: #b4b3b3;
+    
+   
+  }
+h1{
+    font-size: 40px;
+    font-weight:800;
+    line-height: 100%;
+  }
+.messageSender {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 15%;
+    width: 100%;
+    padding-top: 0%;
+  }
+ .messageSender__top{
+    padding-left: 0%;
+ }
+ .messageSender__top img{
+    width: 40%;
+    height: 30%;
+ }
+  h2{
+    font-size: 20px;
+    font-weight:900;
+   line-height: 100%;
+  }
+.plus{
+    height: 90px;
+    font-weight: 400;
+    color: #fdc006;
+    font: sans-serif;
+    font-size: 30px;
+}
+h3{
+    font-size: medium;
+}
+img
+{
+    display:inline;
+}
+
+h4{
+    font-weight:10;
+}
+.messageSender__option a{
+    color:#b52222;
+   
+}
+.bottom a{
+    color: black;
+    line-height: 100%;
+}
+.bottom article{
+    color: greenishyellow;
+}
+.middle{
+    padding-left: 0%;
+    padding-right: 30%;
+}
+.m1{
+display: flex;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 16px 0px 22.8px;
+  padding: 22.8px 0px 0px;
+  
+  letter-spacing: -0.7px;
+  
+}
+.botton h2{
+    align-items: center;
+    padding: 22px 0px;
+   color: greenyellow;
+}
+.social-media{
+    padding: 25px 0;
+    text-align: left;
+}
+.social-media .social-icons{
+    border-radius: 8px;
+    line-height: 0;
+   display: list-item;
+    justify-content: left;
+    align-items: left;
+    margin: 0 8px;
+    font-size: 18px;
+    padding-left: 20%;
+}
+.aside{
+    
+    position: absolute;
+    top:0;
+    padding-left: 900px;
+    padding-right: 0px; 
+
+}
+/* .flag{
+    width: 80%;
+    
+} */
+
+.flags{
+    top: 0;
+    position: absolute;
+    padding-left: 350px;
+}
+
+.samcenter{
+    line-height: 100%;
+    font-weight: 400%;
+   
+}
+center{
+    padding-left:0%;
+}
+p{
+    text-indent: 25%;
+    font-size: 200%;
+    color: #32cd0c;
+}
+.end{
+    padding-left:15%;
+    font-size: 45%;
+}
+@media(max-width:768px){
+sideRow{
+      display:none;
+    }   
+    
+    #showcase h1{
+        margin-top: 40px;
+        font-size: 15px !important;
+    }
+    #newsletter button,quote button{
+        display:block;
+        width: 100%;
+        font-size: 15px !important;
+    }
+    .siderow #logo,.siderow .botton{
+        
+        padding-top: 10%;
+        padding-left: 0%;
+        font-size: 15px !important;
+    }
+    center,.end,.flags,.aside,.social-media .social-icons,.social-media,.m1,.middle,.bottom article,.bottom a,.messageSender__option a,h2,h3,h4,.add,.plus,.messageSender__top,img,.messageSender,
+    label,#logo,#logo1, .bottom,.top#messageSender ,center,.messageSender__top,aside,bottom,plus{
+        float:none;
+        text-align:left;
+        font-size: 15px !important;
+        
+       
+    }
+   .siderow a,.siderow button,.siderow label,.siderow h4,.sidebarRow{
+        display:none;
+        font-size: 15px !important;
+    }
+    .bottom,.flags{
+       padding-left: -0%;
+       padding-right: 0%;
+       min-width: -320px;
+       font-size: 15px !important;
+    }    
+    .aside{
+    
+        position: absolute !important;
+        top:0 !important;
+        padding-left: 400px !important;
+        padding-right: 0px !important; 
+        font-size: 15px !important;
+    
+    }
+    .flag{
+        width: 200px !important;
+        height: 100px !important;
+    }
+    #logo{
+        height: 30px; 
+        width: 30px !important;;
+    }
+    .siderow botton{
+        color: #fdc006;
+        font: sans-serif;
+        font-size: 12px;
+        font-weight: 1000;
+    }
+    #pic1{
+        height: 120px; 
+        width: 120px !important;;
+    }
+    a{
+        font-size:10px;
+    }
+    h1{
+        font-size:20px;
+    }
+}
